@@ -1,12 +1,8 @@
 'use strict'
 
-const first_str = prompt("Give 1st integer, please: ");
-const second_str = prompt("Give 2nd integer, please: ");
-const third_str = prompt("Give 3rd integer, please: ");
-
-const first = parseInt(first_str);
-const second = parseInt(second_str);
-const third = parseInt(third_str);
+const first = parseInt(prompt("Give 1st integer, please: "));
+const second = parseInt(prompt("Give 2nd integer, please: "));
+const third = parseInt(prompt("Give 3rd integer, please: "));
 
 const sum =  first + second + third;
 const product = first * second * third;
