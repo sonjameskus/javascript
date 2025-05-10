@@ -1,0 +1,42 @@
+.my-list {
+  background-color: rgb(211, 62, 62);
+  color: #fff;
+}
+
+h1 {
+  font-family: "Bookman Old Style";
+  color: rgb(211, 62, 62);
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  align-items: center;
+  height: 100%;
+  font-family: "Bookman Old Style";
+}
+
+.nav {
+  overflow: hidden;
+  background-color: rgb(211, 62, 62);
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Bookman Old Style";
+}
+
+.nav a:hover {
+  background-color: #fff;
+  color: rgb(211, 62, 62);
+}
