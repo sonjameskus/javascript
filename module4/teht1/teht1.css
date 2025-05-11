@@ -1,0 +1,75 @@
+.row {
+  display: flex;
+    margin: 10%;
+}
+
+.column {
+  flex: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  align-items: center;
+  height: 100%;
+  font-family: "Bookman Old Style";
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #5922c2;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #c0aaea;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Bookman Old Style";
+}
+
+.nav a:hover {
+  background-color: #c0aaea ;
+  color: #5922c2 ;
+}
+
+body {
+    background-color: #c0aaea;
+}
+
+form, input {
+    background-color: #c0aaea;
+    color: #5922c2;
+    font-family: "Bookman Old Style";
+    border-color: #5922c2;
+}
+
+p {
+     color: #5922c2;
+    font-family: "Bookman Old Style";
+}
+
+img {
+    border: 1px solid #5922c2;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #5922c2;
+    font-family: "Bookman Old Style";
+}
+
+#results {
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+    flex-direction: column;
+}
+ a {
+     color: #5922c2;
+ }
